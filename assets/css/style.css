@@ -52,16 +52,16 @@ body {
 .header,footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
     }
-
+/* Formating the background image up top center of the website */
+.background-image {
+        height: 800px;
+        width: 100%;
+        margin-bottom: 25px;
+        background-image: url("../images/digital-marketing-meeting.jpg");
+        background-size: cover;
+        background-position: center;
+        }
     /* Class Selectors for bottom left of page */
-.nav-menu-block {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
-    }
 .nav-menu {
     margin-bottom: 20px;
     padding: 50px;
@@ -69,9 +69,11 @@ body {
     background-color: #0072bb;
     color: #ffffff;
     }
+    /* defines the height of the nav menu section's images */
 .nav-menu img {
     max-height: 200px;
     }
+/* define the location of the section's images */
 .nav-menu-img_float-left {
     float: left;
     margin-right: 25px;
@@ -80,14 +82,17 @@ body {
     float: right;
     margin-left: 25px;
     }
+/* style the text of the nav menu section's*/
 .nav-menu-content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+    /* for a aesthetically pleasing website, it would be nice to include a:
+    text-align: justify; */
     }
 
     /* Class Selectors for bottom right of page */
-.side-menu-content {
+.side-menu-block {
         margin-right: 20px;
         padding: 20px;
         clear: both;
@@ -99,11 +104,15 @@ body {
 .side-menu {
         margin-bottom: 32px;
         color: #ffffff;
+        /* for a aesthetically pleasing website, it would be nice to include a:
+    text-align: justify; */
     }   
+    /* adding an extra margin below the h3 text in addition to centering the h3 headings */
 .side-menu h3 {
         margin-bottom: 10px;
         text-align: center;
-    }  
+    } 
+     /* adds dimensions and a margin for the side menu images */
 .side-menu img {
             display: block;
             margin: 10px auto;
