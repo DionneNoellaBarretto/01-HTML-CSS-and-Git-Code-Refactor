@@ -37,6 +37,7 @@
         <!-- here the aria-label acts as an alt text for the background image thats defined in the css file under nav-menu-sections class selector. 
             <img class="background-image" title="Background Image of people around a conference table">
             Not using title else when hovering over the backgorund image a title banner appears -->
+        <!-- An image can also be embedded within figures per semantic html as shown here for example, but take note figure appends space around the image element -->
         <figure>
             <img class="background-image" aria-label="Background image of people around a office conference table">
         </figure>
@@ -66,6 +67,7 @@
         </article>
         <!-- Botton right section of the page -->
         <aside class="side-menu-block">
+            <!-- if I use section here the formatting goes off as the width of a section is not as wide as in aside resulting in the text portion to wrap around narrowly out of bounds -->
             <aside>
                 <h3>Lead Generation</h3>
                     <img src="./assets/images/lead-generation.png" alt="Lead Generation Image" />
