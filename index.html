@@ -1,26 +1,26 @@
-<!-- HTML type document written in US-English -->
+<!-- HTML type document written in US-Engligh -->
 <!DOCTYPE html>
 <html lang="en-us">
-<!-- website metadata declarations -->
+
+    <!-- website metadata declarations -->
     <head>
         <meta charset="UTF-8" />
-        <!-- Setting up a stylesheet relationship for html to read all its css formatting from -->
-        <link rel="stylesheet" href="./assets/css/style.css">
+        <!-- Setting up a stylesheet relationship for html to read all its css formating from -->
+        <link rel="stylesheet" href=".\assets\css\style.css">
         <!-- Updating the title of the tab in a browser to be self reflective -->
-        <title>Horiseon Website</title>
+        <title>Horiseon website</title>
     </head>
 
     <!-- Actual website content composition -->
-    <header>
-        <!-- <span> non semantic element here is used to color a part of a text within the word Horiseon -->
-        <h1>Hori<span id="seo">seo</span>n</h1>
-        <!-- if span's a hard no no , an alternative i can think of is to write it as follows:
-        <h1>Hori<h1 id="seo">seo</h1><h1>n</h1>   -->
+    <body>
+        <header>
+            <!-- <span> element here is used to color a part of a text within the word Horiseon -->
+            <h1>Hori<span class="seo">seo</span></h1><h1>n</h1>
             <nav>
-            <!-- ul - unordered list -->
+                <!-- ul - unordered list -->
                 <ul>
                     <li>
-                        <!-- href is adding a link reference to the text corresponding id's defined below for mapping when clicked on -->
+                        <!-- href is adding a hotlink/quicklink reference to the text corresponding id's defined below for mapping when clicked on -->
                         <a href="#search-engine-optimization">Search Engine Optimization</a>
                     </li>
                     <li>
@@ -31,73 +31,84 @@
                     </li>
                 </ul>
             </nav>
-    </header>
+        </header>
 
-    <body>
-        <!-- here the aria-label acts as an alt text for the background image thats defined in the css file under nav-menu-sections class selector. 
-            <img class="background-image" title="Background Image of people around a conference table">
-            Not using title else when hovering over the backgorund image a title banner appears -->
-        <!-- An image can also be embedded within figures per semantic html as shown here for example, but take note figure appends space around the image element -->
-        <figure>
-            <img class="background-image" aria-label="Background image of people around a office conference table">
-        </figure>
-            <!-- Bottom left section of the page -->    
-        <article class="nav-menu-content">
-            <section id = "search-engine-optimization">
-                <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="Search Engine optimization Image"/>
-            <h2>Search Engine Optimization</h2>
-                <p>
-                    The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
-                </p>
-            </section>
-            <section id="online-reputation-management">
-                <img src="./assets/images/online-reputation-management.jpg" class="float-right" alt ="Online Reputation Management Image" />
-                <h2>Online Reputation Management</h2>
-                <p>
-                    The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
-                </p>
-            </section>
-            <section id="social-media-marketing">
-                <img src="./assets/images/social-media-marketing.jpg" class="float-left" alt="Social Media Marketing Image" />
-                <h2>Social Media Marketing</h2>
-                <p>
-                    Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
-                </p>
-            </section>
-        </article>
-        <!-- Botton right section of the page -->
-        <aside class="side-menu-block">
-            <!-- if I use section here the formatting goes off as the width of a section is not as wide as in aside resulting in the text portion to wrap around narrowly out of bounds -->
-            <aside>
-                <h3>Lead Generation</h3>
-                    <img src="./assets/images/lead-generation.png" alt="Lead Generation Image" />
-                    <p>
-                        Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
-                    </p>
-            </aside>
-            <aside>
-                <h3>Brand Awareness</h3>
-                    <img src="./assets/images/brand-awareness.png" alt= "Brand Awareness Image"/>
-                    <p>
-                        Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
-                    </p>
-            </aside>
-            <aside>
-                <h3>Cost Management</h3>
-                    <img src="./assets/images/cost-management.png" alt="Cost Management Image"/>
-                    <p>
-                        As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
-                    </p>
-            </aside>
-        </aside>
+    <!-- Content for bottom left of page -->
+        <main>
+    <!-- Background image up top of the page -->
+        <figure class="background-image" alt="background-image of people working around a conference table"></figure>
 
-        <!-- this is the last section of the website that will not appear as its been hidden using a display css property, this can also be commented entirely here itself within the index.html to remove it -->
+    <!-- Left panel section detailing the different Horiseon offerings/hotlinks outlined in the nav menu up top-->
+            <article class="left-content">
+                <section id = "search-engine-optimization" class="nav-menu">
+                    <figure>
+                        <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="search engine optimization image"/>
+                    </figure>
+                        <h2>Search Engine Optimization</h2>
+                        <p>
+                            The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
+                        </p>
+                </section>
+                <section id="online-reputation-management" class="nav-menu">
+                    <figure>
+                        <img src="./assets/images/online-reputation-management.jpg" class="float-right" alt="online reputation management image" />
+                    </figure>
+                        <h2>Online Reputation Management</h2>
+                        <p>
+                            The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
+                        </p>
+                </section>
+                <section id="social-media-marketing" class="nav-menu">
+                    <figure>
+                        <img src="./assets/images/social-media-marketing.jpg" class="float-left" alt= "social media marketing image" />
+                    </figure>
+                        <h2>Social Media Marketing</h2>
+                        <p>
+                            Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
+                        </p>
+                </section>
+            </article>
+
+        <!-- Content for bottom right of page -->
+            <aside class="right-content">
+                <section class="right-menu">
+                    <h3>Lead Generation</h3>
+                    <figure>
+                        <img src="./assets/images/lead-generation.png" alt="lead generation image" />
+                    </figure>
+                        <p>
+                            Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
+                        </p>
+                </section>
+                <section class="right-menu">
+                    <h3>Brand Awareness</h3>
+                    <figure>
+                        <img src="./assets/images/brand-awareness.png" alt= "brand awareness image" />
+                     </figure>
+                        <p>
+                            Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
+                        </p>
+                </section>
+                <section class="right-menu">
+                    <h3>Cost Management</h3>
+                    <figure>
+                        <img src="./assets/images/cost-management.png" alt="cost management image" />
+                    </figure>
+                        <p>
+                            As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
+                        </p>
+                </section>
+            </aside>
+        </main> 
+
+        <!-- Footer section is hidden due to the display property in the css stylesheet. This can also be commented off here in index.html as an alternative to hiding it from being displayed -->
         <footer>
             <h2>Made with ❤️️ by Horiseon</h2>
             <p>
                 &copy; 2019 Horiseon Social Solution Services, Inc.
             </p>
-        <footer>
+        </footer>
+
     </body>
 
 </html>
