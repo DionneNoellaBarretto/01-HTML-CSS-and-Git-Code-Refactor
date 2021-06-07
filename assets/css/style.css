@@ -7,11 +7,10 @@
     /* brought up 2 common attributes set for most elements across the page */
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     color: #ffffff;
+  }
 
-    }
-
-/* isolated id to change the color of seo in 'Horiseon' h1 header */
-#seo {
+/* isolated class to change the color of seo in 'Horiseon' h1 header */
+.seo {
     color: #d9dcd6;
 }
 
