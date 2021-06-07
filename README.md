@@ -1,13 +1,11 @@
-<span style="color:purple;"> # 01-HTML-CSS-and-Git-Code-Refactor Homework Expectation </span>
+# 01-HTML-CSS-and-Git-Code-Refactor Homework Expectation
 
-<span style="color:orange;"> ## User Story </span>
-
+### User Story
 ```
 AS A marketing agency I WANT a codebase that follows accessibility standards SO THAT our own site is optimized for search engines
 ```
 
-<span style="color:lightgreen;">## Acceptance Criteria </span>
-
+### Acceptance Criteria
 ```
 GIVEN a webpage meets accessibility standards
 ✓ WHEN I view the source code THEN I find semantic HTML elements
@@ -16,33 +14,33 @@ GIVEN a webpage meets accessibility standards
 ✓ WHEN I view the heading attributes THEN they fall in sequential order
 ✓ WHEN I view the title element THEN I find a concise, descriptive title
 ```
-<span style="color:darkblue;"> ## Mock Up </span>
-<img src="assets\01-html-css-git-homework-demo.png">
 
-<span style="color:darkgreen;"> ## Grading Requirements </span>
+### Mock Up 
+<img src= "./Assets\01-html-css-git-homework-demo.png" >
 
-This homework is graded based on the following criteria: 
+### Grading Requirements
 
-### Technical Acceptance Criteria: 40%
-```
+This homework is graded based on the following criteria:
+
+#### Technical Acceptance Criteria: 40%
 Satisfies all of the preceding acceptance criteria plus the following code improvements:
-  ✅ Application's links all function correctly.
-  ✅ Application's CSS selectors and properties are consolidated and organized to follow semantic structure.
-  ✅ Application's CSS file is properly commented.
 ```
-
-### Deployment: 32%
+✅ Application's links all function correctly.
+✅ Application's CSS selectors and properties are consolidated and organized to follow semantic structure.
+✅ Application's CSS file is properly commented.
+```
+#### Deployment: 32%
 ```
 ✅ Application deployed at live URL.
 ✅ Application loads with no errors.
 ✅ Application GitHub URL submitted.
 ✅ GitHub repository contains application code.
 ```
-### Application Quality: 15%
+#### Application Quality: 15%
 ```
 ✅ Application resembles mock-up provided in the homework instructions (at least 90%).
 ```
-### Repository Quality: 13%
+#### Repository Quality: 13%
 ```
 ✅ Repository has a unique name.
 ✅ Repository follows best practices for file structure and naming conventions.
@@ -51,10 +49,14 @@ Satisfies all of the preceding acceptance criteria plus the following code impro
 ✅ Repository contains quality README file with description, screenshot, and link to deployed application.
 ```
 
-----------
-# DNB's SOLUTION:
+--------------------------------
+# DNB's SOLUTION: 
+UNC Boot Camp Submission
+🗂️ [Github Repository](https://github.com/DionneNoellaBarretto/01-HTML-CSS-and-Git-Code-Refactor)
 
-##### Github Repository: https://github.com/DionneNoellaBarretto/01-HTML-CSS-and-Git-Code-Refactor 
+📄[Github Page] (https://dionnenoellabarretto.github.io/01-HTML-CSS-and-Git-Code-Refactor/)
 
-##### Github Page: https://dionnenoellabarretto.github.io/01-HTML-CSS-and-Git-Code-Refactor/
-----------
+Another way of solving is hosted here: 
+📄 [Github Page](https://dionnenoellabarretto.github.io/02-Homework/Develop/)
+
+🗂️ [Github Repository](https://github.com/DionneNoellaBarretto/02-Homework/tree/main/Develop)
