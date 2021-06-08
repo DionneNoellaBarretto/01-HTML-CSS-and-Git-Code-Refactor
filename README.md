@@ -54,7 +54,7 @@ Satisfies all of the preceding acceptance criteria plus the following code impro
 UNC Boot Camp Submission
 🗂️ [Github Repository](https://github.com/DionneNoellaBarretto/01-HTML-CSS-and-Git-Code-Refactor)
 
-📄[Github Page] (https://dionnenoellabarretto.github.io/01-HTML-CSS-and-Git-Code-Refactor/)
+📄[Github Page](https://dionnenoellabarretto.github.io/01-HTML-CSS-and-Git-Code-Refactor/)
 
 Another way of solving is hosted here: 
 📄 [Github Page](https://dionnenoellabarretto.github.io/02-Homework/Develop/)
