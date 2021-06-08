@@ -14,6 +14,18 @@ GIVEN a webpage meets accessibility standards
 ✓ WHEN I view the heading attributes THEN they fall in sequential order
 ✓ WHEN I view the title element THEN I find a concise, descriptive title
 ```
+--------------------------------
+# DNB's SOLUTION: 
+UNC Boot Camp Submission
+
+🗂️ [Github Repository](https://github.com/DionneNoellaBarretto/01-HTML-CSS-and-Git-Code-Refactor)
+📄[Github Page](https://dionnenoellabarretto.github.io/01-HTML-CSS-and-Git-Code-Refactor/)
+
+Another solution attempt is hosted here: 
+📄 [Github Page](https://dionnenoellabarretto.github.io/02-Homework/Develop/)
+🗂️ [Github Repository](https://github.com/DionneNoellaBarretto/02-Homework/tree/main/Develop)
+
+--------------------------------
 
 ### Mock Up 
 <img src= "./Assets\01-html-css-git-homework-demo.png" >
@@ -48,15 +60,3 @@ Satisfies all of the preceding acceptance criteria plus the following code impro
 ✅ Repository contains multiple descriptive commit messages.
 ✅ Repository contains quality README file with description, screenshot, and link to deployed application.
 ```
-
---------------------------------
-# DNB's SOLUTION: 
-UNC Boot Camp Submission
-🗂️ [Github Repository](https://github.com/DionneNoellaBarretto/01-HTML-CSS-and-Git-Code-Refactor)
-
-📄[Github Page](https://dionnenoellabarretto.github.io/01-HTML-CSS-and-Git-Code-Refactor/)
-
-Another way of solving is hosted here: 
-📄 [Github Page](https://dionnenoellabarretto.github.io/02-Homework/Develop/)
-
-🗂️ [Github Repository](https://github.com/DionneNoellaBarretto/02-Homework/tree/main/Develop)
